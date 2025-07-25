@@ -61,8 +61,20 @@ export default function ProductCard({ product, sessionId }: ProductCardProps) {
       case "Amazon": return "text-blue-600 bg-blue-50";
       case "Best Buy": return "text-yellow-600 bg-yellow-50";
       case "Target": return "text-red-600 bg-red-50";
-      case "Walmart": return "text-blue-600 bg-blue-50";
-      default: return "text-gray-600 bg-gray-50";
+      case "Walmart": return "text-purple-600 bg-purple-50";
+      case "Apple": return "text-orange-600 bg-orange-50";
+      case "Shein": return "text-black-600 bg-black-50";
+      case "Costco": return "text-grey-600 bg-grey-50";
+      case "Kohl's": return "text-turqoise-600 bg-turqoise-50";
+      case "Dick's Sporting Good's": return "text-green-600 bg-green-50";
+      case "Dollar Tree": return "text-pink-600 bg-pink-50";
+      case "Lowe's": return "text-violet-600 bg-violet-50";
+      case "Burlington": return "text-blue-600 bg-blue-50";
+      case "GAP": return "text-blue-600 bg-blue-50";
+      case "IKEA": return "text-blue-600 bg-blue-50";
+      case "HEB": return "text-blue-600 bg-blue-50";
+      case "Home Depot": return "text-blue-600 bg-blue-50";
+       default: return "text-gray-600 bg-gray-50";
     }
   };
 
