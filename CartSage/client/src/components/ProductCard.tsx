@@ -64,7 +64,7 @@ export default function ProductCard({ product, sessionId }: ProductCardProps) {
       case "Walmart": return "text-purple-600 bg-purple-50";
       case "Apple": return "text-orange-600 bg-orange-50";
       case "Shein": return "text-black-600 bg-black-50";
-      case "Costco": return "text-grey-600 bg-grey-50";
+      case "Costco": return "text-blue-600 bg-blue-50";
       case "Kohl's": return "text-turqoise-600 bg-turqoise-50";
       case "Dick's Sporting Good's": return "text-green-600 bg-green-50";
       case "Dollar Tree": return "text-pink-600 bg-pink-50";
@@ -74,7 +74,8 @@ export default function ProductCard({ product, sessionId }: ProductCardProps) {
       case "IKEA": return "text-blue-600 bg-blue-50";
       case "HEB": return "text-blue-600 bg-blue-50";
       case "Home Depot": return "text-blue-600 bg-blue-50";
-       default: return "text-gray-600 bg-gray-50";
+      
+      default: return "text-gray-600 bg-gray-50";
     }
   };
 
